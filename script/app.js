@@ -5,7 +5,7 @@ const gameUI = document.querySelector('.game');
 let option = 0;
 let squareSize = 0;
 let size = 0;
-const colorPalette = ['black', 'white', 'yellow', 'green', 'purple', 'blue', 'orange'];
+const colorPalette = ['black', 'yellow', 'green', 'purple', 'blue', 'orange'];
 
 
 sizeButtons.forEach(e => {
