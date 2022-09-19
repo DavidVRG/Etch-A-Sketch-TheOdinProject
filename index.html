@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Etch-A-Sketch</h1>
+        <h2>Please select a size!</h2>
+        <div class="btn-group">
+            <button type="button" class="size" data-id="4">4x4</button>
+            <button type="button" class="size" data-id="16">16x16</button>
+            <button type="button"  class="size" data-id="32">32x32</button>
+            <button type="button"  class="size" data-id="64">64x64</button>
+        </div>
+        <h2>Please select an option!</h2>
+        <div class="btn-group">
+            <button type="button" class="option" data-id="rainbow">Rainbow mode</button>
+            <button type="button"  class="option" data-id="ereaser">Ereaser</button>
+            <button type="button"  class="option" data-id="clear">Clear</button>
+        </div>
+
+        <div class="game"></div>
+    </div>    
+
+
+    <footer>
+        <p>Copyright @ DavidVRG  -- The Odin Project 2022</p>
+    </footer>
+    <script src="script/app.js"></script>
+</body>
+</html>
