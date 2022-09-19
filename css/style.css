@@ -57,6 +57,9 @@ body{
     letter-spacing: 3px;
     box-shadow: 0 0 10px #92918b;
 }
+.active{
+    background-color: #17697e !important;
+}
 
 .game{
     margin: 5rem 0;
